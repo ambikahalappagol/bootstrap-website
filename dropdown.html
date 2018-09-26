@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Restaurant</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=2">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+    background-color: orange;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: green;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: orange;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    padding: 5px;
+}
+
+/* Left and right column */
+.column.side {
+    width: 100%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 50%;
+    }
+}
+
+/* Style the footer */
+.footer {
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="header ">
+
+<div class="drop">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Home </a>
+    <a class="dropdown-item" href="rabout.html">Aboutbout</a>
+    <a class="dropdown-item" href="menu.html">Menu</a>
+  </div>
+
+
+  <h1>Food Restaurant</h1>
+</div>
+
+<div class="topnav">
+  <a href="restaurent.html">Home</a>
+  <a href="rabout.html">About</a>
+  <a href="rmenu.html">Menu</a>
+  <a href="#">Desserts Recipes</a>
+  <a href="malloaf.html">Mealloaf Recipes</a>
+  <a href="rcontact.html">Contact</a>
+</div>
+
+<div class="row">
+<h3> Desserts Recipes<h3>
+ <div class="column right">
+    <h2>Cakes</h2>
+    <p>Black Forest</p>
+  <p>Chistmas</p>
+</div>
+    <div class="column middle">
+    <h2>Dessert Spicel </h2>
+    <p>Cherry Pie</p>
+	<p>Chocolate Dessert spicel</p>
+	<p>choclate milk sake</p>
+  </div>
+ 
+  
+</div>
+
+<div class="row">
+  <form
+  <img src="E:\dessert\christmas.jpg" alt="dessert" height="150" width="350">
+   <img src="E:\dessert\cherry pie.jpg" alt="dessert" height="150" width="250">
+  <img src="E:\dessert\imagess.jpg" alt="dessert" height="150" width="350">
+  </form>
+</div>
+<div class="footer">
+<h2>Write Aout As</h2>
+<p>Message:"text"</p>
+  <p>Contact as: <a href="mailto:foodrestaurant@gmail.com">
+  foodrestaurant@gmail.com</a>.</p>
+  <p> Thank You </p>
+</div>
+
+</body>
+</html>
